@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title> Sử dụng bootstrap </title>
+</head>
+<body>  
+
+    <div id="header" class="fixed-top">
+       <!-- Phần header content -->
+    <div class="bg-light">
+      <div class="container">
+         <div class="row-cols-5">
+         <a href="" class="icon-01"><i class="fas fa-phone-alt "></i> hotline</a>
+         <a href="" class="icon-01"><i class="fas fa-envelope "></i> contact@sonzikon</a>
+         <a href="" class="icon-01 style-icon"><i class="fab fa-facebook-f " ></i></a>
+         <a href="" class="icon-01 style-icon"><i class="fab fa-google-plus-g "></i></a>
+         </div>
+      </div>
+     </div>
+        <!-- Phần navbar-tab -->
+         <nav class="navbar navbar-expand-lg navbar-light">
+           <div class="container">
+             <a class="navbar-brand"> <img src="./images/logo2.png" alt="" width="80px" height="60px"></a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 <li class="nav-item">
+                   <a class="nav-link active  text-style-02" aria-current="page" href="#">Home</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link text-black text-style-01" href="./template.html"> Products and sevices </a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link text-black text-style-01" href="#news"> Last News</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link text-black text-style-01" href="#contact">Contact </a>
+                 </li>
+                 <li class="nav-item dropdown">
+                   <a class="nav-link  dropdown-toggle text-secondary text-style-01" href="#" id="navbarDropdown" role="button"data-bs-toggle="dropdown" aria-expanded="false">
+                     Dropdown
+                   </a>
+                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <li><a class="dropdown-item" href="#list-product">List-product</a></li>
+                     <li><a class="dropdown-item" href="#carouselExampleCaptions">Another action</a></li>
+                     <li><a class="dropdown-item" href="#">Something else here</a></li>
+                   </ul>
+                 </li>
+               </ul>
+               <form class="d-flex">
+                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                 <button class="btn btn-outline-success" type="submit">Search</button>
+               </form>
+             </div>
+           </div>
+         </nav>
+    </div>
+        <!-- phần heading -->
+        <div>
+          <div id="particles-js">
+
+          </div>
+        </div>  
+  
+        <!-- phần list product -->
+        <div id="list-product" class="container">
+          <div class="row mt-5">
+              <h2 class="list-product-title text-center">New product</h2>
+              <div class="list-product-subtitle text-center">
+                  <p>List product description</p>
+              </div>
+              <br>
+              <div class="product-group">
+                  <div class="row">
+                      <div class="col-md-3 col-sm-6 col-12">
+                          <div class="card card-product mb-3">
+                            <img class="card-img-top img-thumbnail" src="./images/aotrang.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title product-title">Product</h5>
+                              <div class="card-text product-price">
+                                  <span class="del-price">100.000 vnd</span>
+                                  <span class="new-price">80.000 vnd</span>
+                              </div>
+                              <a class="btn btn-info btn-add-to-cart "><i class="fas fa-shopping-cart"></i></a>
+                              <a class="btn btn-outline-info btn-detail float-end">Xem chi tiết</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-12">
+                          <div class="card card-product mb-3">
+                            <img class="card-img-top img-thumbnail" src="./images/aovang.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title product-title">Product</h5>
+                              <div class="card-text product-price">
+                                  <span class="del-price">100.000 vnd</span>
+                                  <span class="new-price">80.000 vnd</span>
+                              </div>
+                              <a class="btn btn-info btn-add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                              <a class="btn btn-outline-info btn-detail float-end">Xem chi tiết</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-12">
+                          <div class="card card-product mb-3">
+                            <img class="card-img-top img-thumbnail" src="./images/aoxanhnhat.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title product-title">Product</h5>
+                              <div class="card-text product-price">
+                                  <span class="del-price">100.000 vnd</span>
+                                  <span class="new-price">80.000 vnd</span>
+                              </div>
+                              <a class="btn btn-info btn-add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                              <a class="btn btn-outline-info btn-detail float-end">Xem chi tiết</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-12">
+                          <div class="card card-product mb-3">
+                            <img class="card-img-top img-thumbnail" src="./images/aoxanh.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title product-title">Product</h5>
+                              <div class="card-text product-price">
+                                  <span class="del-price">100.000 vnd</span>
+                                  <span class="new-price">80.000 vnd</span>
+                              </div>
+                              <a class="btn btn-info btn-add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                              <a class="btn btn-outline-info btn-detail float-end">Xem chi tiết</a>
+                              <h3 class="sale-sticky">Sale</h3>
+                            </div>
+                          </div>
+                      </div>			
+                  </div>
+              </div>
+      
+          </div>
+            <div class="product-group">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card card-product mb-3">
+                          <img class="card-img-top img-thumbnail" src="./images/aotrang.jpeg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title product-title">Product</h5>
+                            <div class="card-text product-price">
+                                <span class="del-price">100.000 vnd</span>
+                                <span class="new-price">80.000 vnd</span>
+                            </div>
+                            <a class="btn btn-info btn-add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-info btn-detail float-end">Xem chi tiết</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card card-product mb-3">
+                          <img class="card-img-top img-thumbnail" src="./images/aovang.jpeg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title product-title">Product</h5>
+                            <div class="card-text product-price">
+                                <span class="del-price">100.000 vnd</span>
+                                <span class="new-price">80.000 vnd</span>
+                            </div>
+                            <a class="btn btn-info btn-add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-info btn-detail float-end">Xem chi tiết</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card card-product mb-3">
+                          <img class="card-img-top img-thumbnail" src="./images/aoxanhnhat.jpeg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title product-title">Product</h5>
+                            <div class="card-text product-price">
+                                <span class="del-price">100.000 vnd</span>
+                                <span class="new-price">80.000 vnd</span>
+                            </div>
+                            <a class="btn btn-info btn-add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-info btn-detail float-end">Xem chi tiết</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="card card-product mb-3">
+                          <img class="card-img-top img-thumbnail" src="./images/aoxanh.jpeg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title product-title">Product</h5>
+                            <div class="card-text product-price">
+                                <span class="del-price">100.000 vnd</span>
+                                <span class="new-price">80.000 vnd</span>
+                            </div>
+                            <a class="btn btn-info btn-add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-info btn-detail float-end">Xem chi tiết</a>
+                            <h3 class="sale-sticky">Sale</h3>
+                          </div>
+                        </div>
+                    </div>			
+                </div>
+            </div>
+    
+        </div>
+        </div>
+        <!-- Phần slide trượt -->
+        <div id="carouselExampleCaptions" class="carousel slide mt-5 container" data-bs-ride="carousel">
+          <div class="row">
+            <h3 class="text-center list-product-title" >ANOTHER ACTION</h3>
+            <div class="list-product-subtitle text-center">
+              <p>Sports</p>
+            </div>
+          </div>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/img01.jpg" class="d-block w-100" alt="..." width="1920px" height="580px">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/img02.jpg" class="d-block w-100" alt="..." width="1920px" height="580px">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/img03.jpg" class="d-block w-100" alt="..." width="1920px" height="580px">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+        <!-- Phần last news-->
+        <div id="news" class="container-fluid p-5 bg-light">
+          <div class="row">
+            <h3 class="text-center p-5 title-h1" >LATEST NEWS</h3>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-12 col-12">
+              <div class="card card-style">
+                <img src="./images/img04.jpg" class="card-img-top " alt="">
+                <br> <br> <br> <br>
+                <div class="card-body ">
+                  <h5 class="card-title card-text-club" >Club </h5>
+                  <p class="card-text text-col-left">Covid questionnaires at Molineux this Sunday</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12 ">
+              <div class="row">
+               <div class="col mt-2">
+                <div class="card card-style" style="width: 18rem;">
+                  <img src="./images/img05.jpg" class="card-img-top" alt="">
+                  <br>
+                  <div class="card-body ">
+                    <h5 class="card-title card-text-club" >Club </h5>
+                    <p class="card-text">Shanghai Megastore upgrades to new location</p>
+                    <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                  </div>
+                </div>
+               </div>
+               <div class="col mt-2">
+                <div class="card card-style" style="width: 18rem;">
+                  <img src="./images/img06.jpg " class="card-img-top" alt="">
+                  <br>
+                  <div class="card-body ">
+                    <h5 class="card-title card-text-club">Club</h5>
+                    <p class="card-text">Wolves launch partnership with A&H Contruction</p>
+                    <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                  </div>
+                </div>
+               </div>
+              </div>
+              <br>
+              <div class="row">
+               <div class="col mt-2">
+                <div class="card card-style" style="width: 18rem;">
+                  <img src="./images/img07.jpg" class="card-img-top " alt="">
+                  <br>
+                  <div class="card-body">
+                    <h5 class="card-title card-text-club">Club</h5>
+                    <p class="card-text">Alway kit in store this weekend</p>
+                    <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                  </div>
+                </div>
+               </div>
+               <div class="col mt-2">
+                <div class="card card-style" style="width: 18rem;">
+                  <img src="./images/img08.jpg" class="card-img-top " alt="">
+                  <br>
+                  <div class="card-body ">
+                    <h5 class="card-title card-text-club">Club</h5>
+                    <p class="card-text">Quiz | whoves's league debuts</p>
+                    <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                  </div>
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Phần Contact -->
+        <div id="contact" class="container-fluid  bg-dark">
+          <h2 class="text-center p-5 text-white" >CONTACT</h2>
+          <div class="row">
+            <div class="col-md-6">
+            <h5 class="text-white" style="margin: 44px 0px 16px 32px;">GET ALL THE LATEST ON WOLVES</h5>
+            <img src="./images/logo3.png" class=" p-sm3" alt="" width="294px" height="171px">
+            </div>
+            <div class="col-md-6 p-5">
+              <form>
+                <div class="row text-white">
+                  <div class="col-sm">
+                    <label for="">Name:</label> <br>
+                    <input type="text" class="form-control "  placeholder="Name" required name="">
+                  </div>
+                  <div class="col-sm">
+                    <label for="">Email:</label> <br>
+                    <input type="email" class="form-control" placeholder="Email" required name="">
+                  </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" required name="">
+                </div>
+              </form>
+              <br>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary float-end"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Submit
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Error 
+                       <div class="spinner-border text-success spinner-style" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div> 
+                      </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+              <div class="modal-body">
+              Are you sure you agree?
+              </div>
+               <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Ok</button>
+               </div>
+                  </div>
+                </div>
+              </div>
+                <div class="text-white  mt-5"> FOLLOW US:
+                  <i class="fab fa-twitter p-3 icon-03"></i>
+                  <i class="fab fa-facebook-f p-3 icon-03"></i>
+                  <i class="fab fa-instagram p-3 icon-03"></i>
+                  <i class="fab fa-youtube p-3 icon-03"></i>
+                </div>
+            </div>
+          </div>
+        </div>        
+
+
+
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/particles.min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>

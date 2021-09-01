@@ -1,0 +1,161 @@
+* { margin: 0;
+    padding: 0;
+}
+    /* header content  */
+
+.icon-01{ font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin: 0 8px 0 8px;
+    color: #9c0c24;
+}
+.icon-01:hover{ color:#9c0c24;
+    opacity: 0.6;
+}
+    /* navbar-tab */
+.navbar {
+    background-color: #b9e02b;
+}
+.style-icon i {font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+}
+.text-style-01{ font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: black !important;
+}
+.text-style-01:hover {color: thistle;
+    opacity: 0.5;}
+.text-style-02{ font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;  
+    color: #9c0c24 !important;
+}
+    /* particles */
+#particles-js {
+    margin-top: 20px;
+    background-image: url(./images/solo2.jpeg);
+    background-size: cover;
+    height: 600px;
+
+}
+  
+    /* list product */
+.list-product-title{
+        font-weight: 700;
+        width: 100%;
+        text-transform: uppercase;
+        margin-left: 5px;
+        margin-right: 5px;
+    
+}
+.list-product-subtitle{
+        font-weight: 600;
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+}
+  /* slide trượt */
+  .banner {width: 100%;
+    height: 700px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.read-more-style { margin-top: 36px;
+    background-color: white ;
+    text-align: center;
+    height: 32px;
+    width: 165px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.title-h1{ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        font-weight:700;
+        margin-bottom: 80px;
+        position: relative;
+        display: inline-block;      
+}
+.title-h1::after { position: absolute;
+    content: "";
+    width: 170px;
+    height: 5px;
+    background-color: #9c0c24;
+    bottom: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    transform: translateX(-178px);
+
+}
+.card-style { border: none;
+}
+.card-text-club { font-size: initial;
+    color:#fdb913;
+    font-weight: 700;
+}
+.text-col-left {font-size: 35px;
+    font-weight: 500;
+}
+
+/*product card*/
+.card-product{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+	overflow: hidden;
+	position: relative;
+}
+.product-title{
+	margin-bottom: 0.25rem;
+}
+.card-text .product-price{
+	position: relative;
+}
+.del-price{
+	text-decoration: line-through;
+}
+.new-price{
+	color: #f90;
+	position: absolute;
+	right: 0.5rem;
+}
+.btn-add-to-cart{
+	background-color: #3a5c83 !important;
+	color: white !important;
+}
+.btn-add-to-cart:hover{
+	background-color: #f90 !important;
+}
+.btn-detail{
+	border: 1px solid #3a5c83 !important;
+}
+.btn-detail:hover{
+	color: white !important;
+	background-color: #3a5c83 !important;
+}
+.sale-sticky{
+	color: white;
+	background-color: #f90;
+	display: block;
+	text-align: center;
+	width: 120px;
+	position: absolute;
+	top: 11px;
+    right: -39px;
+	transform: rotate(45deg);
+}
+    
+
+    /* contact */
+.icon-02 { padding: 0px 5px;
+    color: aliceblue;
+}
+.icon-03 { font-size: 32px;
+
+}
+
+    /* modal  */
+.spinner-style {
+    font-size: 10px;
+    margin-bottom: -9px;
+}
